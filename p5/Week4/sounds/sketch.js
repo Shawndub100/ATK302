@@ -16,3 +16,7 @@ function setup() {
 function draw() {
 
 }
+
+function touchStarted() {
+  getAudioContext().resume();
+}
