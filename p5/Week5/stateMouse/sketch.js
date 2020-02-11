@@ -14,17 +14,23 @@ function draw() {
     break;
 
     case 1:
-    background('green')
+    background('blue')
     text('State1', 100, 100);
     break;
 
     case 2:
+    background('green')
+    text('State2', 100, 100);
     break;
 
     case 3:
+    background('yellow')
+    text('State3', 100, 100);
     break;
 
     case 4:
+    background('orange')
+    text('State4', 100, 100);
     break;
 
   }
