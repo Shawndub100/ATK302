@@ -24,7 +24,7 @@ function draw() {
     case 1:
     background('blue')
     text('SOMETHING YOU SEE', 300, 400);
-        text('IN PARIS', 300, 500);
+        text('IN PARIS', 300, 600);
     break;
 
   }
