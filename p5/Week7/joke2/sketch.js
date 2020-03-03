@@ -10,7 +10,7 @@ function draw() {
   // put drawing code here
   switch(myState){
     case 0:
-    background('red')
+    background('green')
     textSize(60)
     text('What is a parasite ', 200, 200);
 
