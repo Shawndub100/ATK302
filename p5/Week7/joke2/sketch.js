@@ -12,8 +12,8 @@ function draw() {
     case 0:
     background('red')
     textSize(60)
-    text('WHAT DOES A HOUSE ', 200, 200);
-      text('WEAR TO THE PARTY ', 200, 300);
+    text('What is a parasite ', 200, 200);
+
       timer++;
       if (timer > 200){
         myState = 1;
@@ -23,7 +23,8 @@ function draw() {
 
     case 1:
     background('blue')
-    text('ADDRESS LOLOL', 300, 400);
+    text('SOMETHING YOU SEE', 300, 400);
+        text('IN PARIS', 300, 400);
     break;
 
   }
