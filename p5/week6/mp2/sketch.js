@@ -1,17 +1,20 @@
 var myState = 0 ;
 var timer = 0 ;
 
+
 function setup() {
   // put setup code here
-  createCanvas(800,800) ;
+  createCanvas(1475,800) ;
+  rectMode (CENTER);
 }
 
 function draw() {
   // put drawing code here
+
   switch(myState){
     case 0:
     background('red')
-    text('hello state0!', 100, 100);
+    text('Hashbrown Man', 100, 100);
 timer++;
 if (timer > 200){
   myState = 1;
@@ -23,6 +26,12 @@ if (timer > 200){
     case 1:
     background('blue')
     text('State1', 100, 100);
+
+    timer++;
+    if (timer > 200){
+      myState = 2;
+      timer = 0;
+    }
     break;
 
     case 2:

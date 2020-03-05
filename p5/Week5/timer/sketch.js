@@ -15,7 +15,7 @@ timer = timer - 1;
 if (timer <= 0) {
   background(random(256),random(256),random(256));
 
-timer = 200 ;
+timer = 1 ;
 
 }
 

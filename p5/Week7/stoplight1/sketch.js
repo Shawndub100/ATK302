@@ -7,61 +7,62 @@ function setup() {
   rectMode(CENTER);
   ellipseMode(CENTER);
 }
-  function draw() {
-    // put drawing code here
 
-fill('yellow')
-    rect(width / 2, height / 2, 150, 400)
+function draw() {
+  // put drawing code here
 
-
-    switch (myState) {
-      case 0:
-        fill('grey');
-        ellipse(width / 2, height / 2, 100, 100);
-        fill('red')
-        ellipse(width / 2, height / 2 - 100, 100, 100);
-        fill('grey')
-
-        ellipse(width / 2, height / 2 + 100, 100, 100);
-
-        timer++;
-        if (timer > 200) {
-          myState = 1;
-          timer = 0;
-        }
-        break;
-
-      case 1:
-        fill('yellow');
-        ellipse(width / 2, height / 2, 100, 100);
-        fill('grey')
-        ellipse(width / 2, height / 2 - 100, 100, 100);
-        fill('grey')
-        ellipse(width / 2, height / 2 + 100, 100, 100);
-
-        timer++;
-        if (timer > 200) {
-          myState = 2;
-          timer = 0;
-        }
-        break;
+  fill('yellow')
+  rect(width / 2, height / 2, 150, 400)
 
 
-      case 2:
-        fill('grey');
-        ellipse(width / 2, height / 2, 100, 100);
-        fill('grey')
-        ellipse(width / 2, height / 2 - 100, 100, 100);
-        fill('green')
-        ellipse(width / 2, height / 2 + 100, 100, 100);
-        timer++;
-        if (timer > 200) {
-          myState = 0;
-          timer = 0;
-        }
+  switch (myState) {
+    case 0:
+      fill('grey');
+      ellipse(width / 2, height / 2, 100, 100);
+      fill('red')
+      ellipse(width / 2, height / 2 - 100, 100, 100);
+      fill('grey')
+
+      ellipse(width / 2, height / 2 + 100, 100, 100);
+
+      timer++;
+      if (timer > 200) {
+        myState = 1;
+        timer = 0;
+      }
+      break;
+
+    case 1:
+      fill('yellow');
+      ellipse(width / 2, height / 2, 100, 100);
+      fill('grey')
+      ellipse(width / 2, height / 2 - 100, 100, 100);
+      fill('grey')
+      ellipse(width / 2, height / 2 + 100, 100, 100);
+
+      timer++;
+      if (timer > 200) {
+        myState = 2;
+        timer = 0;
+      }
+      break;
 
 
-        break;
+    case 2:
+      fill('grey');
+      ellipse(width / 2, height / 2, 100, 100);
+      fill('grey')
+      ellipse(width / 2, height / 2 - 100, 100, 100);
+      fill('green')
+      ellipse(width / 2, height / 2 + 100, 100, 100);
+      timer++;
+      if (timer > 200) {
+        myState = 0;
+        timer = 0;
       }
 
-    }
+
+      break;
+  }
+
+}

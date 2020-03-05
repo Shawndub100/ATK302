@@ -6,6 +6,7 @@ var myState = 0;
 
 
 function preload() {
+
   song1 = loadSound('assets/donkey.mp3');
   song2 = loadSound('assets/skate.mp3');
   song3 = loadSound('assets/thrill.mp3');
@@ -15,12 +16,13 @@ function preload() {
   song2.stop();
   song3.loop();
   song3.stop();
+
 }
 
 function setup() {
 
-  createCanvas(720, 200);
-  background(255, 0, 0);
+  createCanvas(1430, 800);
+  background('blue');
 
 
 }
@@ -34,6 +36,7 @@ function draw() {
   break;
 
   case 1:
+textSize("hello",200,400
     break;
 
   case 2:

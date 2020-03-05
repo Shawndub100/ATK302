@@ -4,7 +4,7 @@ var y = 0 ;
 
 function setup() {
 
-  createCanvas (1175,825) ;
+  createCanvas (1475,825) ;
   rectMode (CENTER);
 
   mic = new p5.AudioIn();
