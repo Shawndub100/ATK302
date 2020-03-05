@@ -22,7 +22,7 @@ function draw() {
 
     if (timer1 <= 0) {
       background(random(256),random(256),random(256));
-      text('Congradulations you have found me!!! ', 100, 100);
+      text('Congratulations you have found me!!! ', 100, 100);
 
     timer1 = 1 ;
 
@@ -92,9 +92,9 @@ textSize(50)
     background('yellow')
       rect(100,100,100,100) ;
 
-        text(' Ive actually never seen him myself.', 350, 400);
+        text(' I\'ve actually never seen him myself.', 350, 400);
             text('It has been said if you click the square', 350, 500);
-              text('youll see him .', 350, 600);
+              text('you\'ll see him .', 350, 600);
     break;
 
 
